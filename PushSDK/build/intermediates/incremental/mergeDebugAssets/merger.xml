@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="E:\UMDemo\PushSDK\assets"/><source path="E:\UMDemo\PushSDK\build\generated\assets\shaders\debug"/></dataSet><dataSet config="debug"><source path="E:\UMDemo\PushSDK\build-types\debug\assets"/></dataSet></merger>
