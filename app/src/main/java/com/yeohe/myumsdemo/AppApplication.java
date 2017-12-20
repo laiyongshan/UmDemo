@@ -1,6 +1,7 @@
 package com.yeohe.myumsdemo;
 
 import android.app.Application;
+import android.support.multidex.MultiDexApplication;
 import android.util.Config;
 
 import com.umeng.commonsdk.UMConfigure;
@@ -9,7 +10,7 @@ import com.umeng.commonsdk.UMConfigure;
  * Created by Administrator on 2017/12/19.
  */
 
-public class AppApplication extends Application {
+public class AppApplication extends MultiDexApplication {
 
     @Override
     public void onCreate() {
@@ -22,4 +23,6 @@ public class AppApplication extends Application {
         UMConfigure.init(this, "5a30e6dab27b0a13fc00000e", "Umeng", UMConfigure.DEVICE_TYPE_PHONE,null);
 
     }
+
+
 }

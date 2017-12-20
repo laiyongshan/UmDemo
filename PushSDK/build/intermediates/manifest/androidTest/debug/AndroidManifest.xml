@@ -3,11 +3,11 @@
     package="com.umeng.message.lib.test" >
 
     <uses-sdk
-        android:minSdkVersion="14"
-        android:targetSdkVersion="26" />
+        android:minSdkVersion="9"
+        android:targetSdkVersion="22" />
 
     <instrumentation
-        android:name="com.android.test.runner.MultiDexTestRunner"
+        android:name="android.support.test.runner.AndroidJUnitRunner"
         android:functionalTest="false"
         android:handleProfiling="false"
         android:label="Tests for com.umeng.message.lib.test"
